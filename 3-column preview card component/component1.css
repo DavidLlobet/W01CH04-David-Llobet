@@ -6,6 +6,7 @@
   
   .container {
     display: flex;
+    margin-top: 70px;
     width: 600px;
     height: 500px;
     justify-content: center;
@@ -44,11 +45,14 @@
   }
   
   h1 {
-    color: white;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-right: 60px;
   }
   
   img {
     margin-top: 30px;
+    width: 60px;
+    padding-right: 90px;
   }
   
   p {
@@ -60,27 +64,39 @@
   
   .button1 {
     display: flex;
-    border-radius: 12px;
+    height: 40px;
+    width: 110px;
+    border-radius: 30px;
     margin-top: 50px;
-    margin-right: 70px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
     background: hsl(0, 0%, 95%);
     color: hsl(31, 77%, 52%);
   }
 
   .button2 {
     display: flex;
-    border-radius: 12px;
+    height: 40px;
+    width: 110px;
+    border-radius: 30px;
     margin-top: 50px;
-    margin-right: 70px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
     background: hsl(0, 0%, 95%);
     color: hsl(184, 100%, 22%);
   }
 
   .button3 {
     display: flex;
-    border-radius: 12px;
+    width: 110px;
+    height: 40px;
+    border-radius: 30px;
     margin-top: 50px;
-    margin-right: 70px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
     color: hsl(179, 100%, 13%);
     background: hsl(0, 0%, 95%);
   }
